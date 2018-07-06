@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Color Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">RULES</h4>
+      </div>
+      <div class="modal-body">
+        <p>Select the color that matches the RGB code provided in the title</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <h1>The
+    <br>
+    <span id='colorDisplay'>RGB</span>
+    <br> Color Game
+  </h1>
+
+  <div id='stripe'>
+    <button id='reset'>New Colors</button>
+    <span id='message'></span>
+    <button class='mode'>Easy</button>
+    <button class='mode selected'>Hard</button>
+  </div>
+
+  <div id='container'>
+    <div class='square'></div>
+    <div class='square'></div>
+    <div class='square'></div>
+    <div class='square'></div>
+    <div class='square'></div>
+    <div class='square'></div>
+  </div>
+
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+</html>
